@@ -5,7 +5,7 @@
     "strict": true,
     "noImplicitAny": false,
     "sourceMap": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
@@ -16,5 +16,8 @@
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
 }
